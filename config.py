@@ -7,7 +7,7 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("24073111"))
+API_ID = ("24073111")
 API_HASH = getenv("9775a27670d26923630d4a86528fc8db")
 
 # Get your token from @BotFather on Telegram.
@@ -19,7 +19,7 @@ MONGO_DB_URI = getenv("mongodb+srv://hypercheckerop:cqfSwfrQfvW0SElC@cluster0.uq
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("-4233455547", None))
+LOGGER_ID = -4233455547
 
 # Get this value from @FallenxBot on Telegram by /id
 OWNER_ID = int(getenv("6574060333", 1356469075))
